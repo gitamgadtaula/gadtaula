@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="about-us">
-      <img src="@/assets/images/logo.png" />
+      <img src="@/assets/images/logo.png" class="logo" />
       <div class="about-title">
         <h1>Who are we?</h1>
         <h2>
@@ -27,7 +27,7 @@ export default {};
 .container {
 }
 .main {
-  background-image: url("@/assets/images/hero-bg.png");
+  background-image: url("@/assets/images/firewatch.jpg");
   height: 100vh;
   width: 100%;
   padding: 20px;
@@ -35,6 +35,7 @@ export default {};
   justify-content: flex-end;
   background-attachment: fixed;
   align-items: center;
+  background-size: cover;
 }
 h1,
 h2 {
@@ -42,12 +43,16 @@ h2 {
   font-weight: 1000;
   padding: 4px 0px;
 }
+.logo {
+  object-fit: cover;
+  width: clamp(120px, 150px, 400px);
+}
 .about-us {
   padding: 20px;
   background-color: #f9fafb;
   background-image: url("@/assets/images/ill.svg");
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: contain;
   background-position: right;
 }
 

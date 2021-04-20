@@ -37,7 +37,7 @@ nav {
   position: fixed;
   top: 0;
   border: 1px solid 386fa4;
-  background-color: #071013;
+  background-color: #791d59;
   padding: 10px 0;
   width: 100%;
   scroll-margin: 10px;
@@ -50,15 +50,17 @@ nav ul {
 nav li {
   list-style-type: none;
   color: white;
-  padding: 2px 4px;
+  padding: 4px 8px;
 }
 nav li:hover {
   /* background-color: aquamarine; */
+  background-color: #30288e;
   cursor: pointer;
   transform: scale(1.1);
+  border-radius: 14px;
   animation: fade-in 0.5s ease-in-out;
 }
-@keyframes fade-in {
+/* @keyframes fade-in {
   0% {
     opacity: 0.3;
   }
@@ -71,7 +73,7 @@ nav li:hover {
   100% {
     opacity: 1;
   }
-}
+} */
 .nuxt {
   background-color: #f9fafb;
 }
