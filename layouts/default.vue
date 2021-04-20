@@ -4,7 +4,7 @@
       <ul>
         <li>Home</li>
         <li>About</li>
-        <li>Contact</li>
+        <!-- <li>Contact</li> -->
         <li>Careers</li>
       </ul>
     </nav>
